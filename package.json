@@ -1,0 +1,22 @@
+{
+  "name": "game-react-nodejs",
+  "version": "1.0.0",
+  "description": "Online Rock-Paper-Scissors-Spock-Lizard game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

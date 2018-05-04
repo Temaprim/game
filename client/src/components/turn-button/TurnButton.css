@@ -1,0 +1,18 @@
+.game-button {
+    flex-grow: 1;
+    border: 1px solid #828282;
+    background-color: #2e2e2e;
+    cursor: pointer;
+}
+
+.game-button:first-child {
+    border-left: none;
+}
+
+.game-button:last-child {
+    border-right: none;
+}
+
+.game-button:hover {
+    background-color: #434343;
+}
